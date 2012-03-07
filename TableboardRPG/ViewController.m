@@ -3,7 +3,7 @@
 //  TableboardRPG
 //
 //  Created by Mario Leandro Pires Toledo on 3/7/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 Hello Sword. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -21,6 +21,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    inGameView = [[InGameView alloc] initWithFrame:CGRectMake(0, 0, 768, 1024)];
+    [self.view addSubview:inGameView];
+    
+    [inGameView load];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

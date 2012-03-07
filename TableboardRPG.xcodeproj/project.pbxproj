@@ -15,6 +15,12 @@
 		A68529C61507F58400BBE033 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A68529C51507F58400BBE033 /* AppDelegate.m */; };
 		A68529C91507F58400BBE033 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A68529C81507F58400BBE033 /* ViewController.m */; };
 		A68529CC1507F58400BBE033 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A68529CA1507F58400BBE033 /* ViewController.xib */; };
+		A68529EE150801C700BBE033 /* mapImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A68529ED150801C700BBE033 /* mapImage.jpg */; };
+		A68529FA150803CC00BBE033 /* CharacterContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = A68529F2150803CC00BBE033 /* CharacterContainer.m */; };
+		A68529FB150803CC00BBE033 /* CharacterContainer.xib in Resources */ = {isa = PBXBuildFile; fileRef = A68529F3150803CC00BBE033 /* CharacterContainer.xib */; };
+		A68529FC150803CC00BBE033 /* InGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = A68529F5150803CC00BBE033 /* InGameView.m */; };
+		A68529FD150803CC00BBE033 /* Tableboard.m in Sources */ = {isa = PBXBuildFile; fileRef = A68529F8150803CC00BBE033 /* Tableboard.m */; };
+		A68529FE150803CC00BBE033 /* Tableboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = A68529F9150803CC00BBE033 /* Tableboard.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +28,24 @@
 		A68529B51507F58400BBE033 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A68529B71507F58400BBE033 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A68529B91507F58400BBE033 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A68529BD1507F58400BBE033 /* TableboardRPG-Info.plist */ = {isa = PBXFileReference; path = "TableboardRPG-Info.plist"; sourceTree = "<group>"; };
+		A68529BD1507F58400BBE033 /* TableboardRPG-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableboardRPG-Info.plist"; sourceTree = "<group>"; };
 		A68529BF1507F58400BBE033 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A68529C11507F58400BBE033 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A68529C31507F58400BBE033 /* TableboardRPG-Prefix.pch */ = {isa = PBXFileReference; path = "TableboardRPG-Prefix.pch"; sourceTree = "<group>"; };
-		A68529C41507F58400BBE033 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		A68529C31507F58400BBE033 /* TableboardRPG-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableboardRPG-Prefix.pch"; sourceTree = "<group>"; };
+		A68529C41507F58400BBE033 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A68529C51507F58400BBE033 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A68529C71507F58400BBE033 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		A68529C71507F58400BBE033 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A68529C81507F58400BBE033 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A68529CB1507F58400BBE033 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		A68529ED150801C700BBE033 /* mapImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mapImage.jpg; sourceTree = "<group>"; };
+		A68529F1150803CC00BBE033 /* CharacterContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterContainer.h; sourceTree = "<group>"; };
+		A68529F2150803CC00BBE033 /* CharacterContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterContainer.m; sourceTree = "<group>"; };
+		A68529F3150803CC00BBE033 /* CharacterContainer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CharacterContainer.xib; sourceTree = "<group>"; };
+		A68529F4150803CC00BBE033 /* InGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InGameView.h; sourceTree = "<group>"; };
+		A68529F5150803CC00BBE033 /* InGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InGameView.m; sourceTree = "<group>"; };
+		A68529F7150803CC00BBE033 /* Tableboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tableboard.h; sourceTree = "<group>"; };
+		A68529F8150803CC00BBE033 /* Tableboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tableboard.m; sourceTree = "<group>"; };
+		A68529F9150803CC00BBE033 /* Tableboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Tableboard.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +92,8 @@
 		A68529BB1507F58400BBE033 /* TableboardRPG */ = {
 			isa = PBXGroup;
 			children = (
+				A68529EF150803CB00BBE033 /* GameController */,
+				A68529EB150801C700BBE033 /* Resources */,
 				A68529C41507F58400BBE033 /* AppDelegate.h */,
 				A68529C51507F58400BBE033 /* AppDelegate.m */,
 				A68529C71507F58400BBE033 /* ViewController.h */,
@@ -96,6 +113,53 @@
 				A68529C31507F58400BBE033 /* TableboardRPG-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A68529EB150801C700BBE033 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A68529EC150801C700BBE033 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A68529EC150801C700BBE033 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A68529ED150801C700BBE033 /* mapImage.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		A68529EF150803CB00BBE033 /* GameController */ = {
+			isa = PBXGroup;
+			children = (
+				A68529F0150803CC00BBE033 /* CharacterStatus */,
+				A68529F4150803CC00BBE033 /* InGameView.h */,
+				A68529F5150803CC00BBE033 /* InGameView.m */,
+				A68529F6150803CC00BBE033 /* Tableboard */,
+			);
+			path = GameController;
+			sourceTree = "<group>";
+		};
+		A68529F0150803CC00BBE033 /* CharacterStatus */ = {
+			isa = PBXGroup;
+			children = (
+				A68529F1150803CC00BBE033 /* CharacterContainer.h */,
+				A68529F2150803CC00BBE033 /* CharacterContainer.m */,
+				A68529F3150803CC00BBE033 /* CharacterContainer.xib */,
+			);
+			path = CharacterStatus;
+			sourceTree = "<group>";
+		};
+		A68529F6150803CC00BBE033 /* Tableboard */ = {
+			isa = PBXGroup;
+			children = (
+				A68529F7150803CC00BBE033 /* Tableboard.h */,
+				A68529F8150803CC00BBE033 /* Tableboard.m */,
+				A68529F9150803CC00BBE033 /* Tableboard.xib */,
+			);
+			path = Tableboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +214,9 @@
 			files = (
 				A68529C01507F58400BBE033 /* InfoPlist.strings in Resources */,
 				A68529CC1507F58400BBE033 /* ViewController.xib in Resources */,
+				A68529EE150801C700BBE033 /* mapImage.jpg in Resources */,
+				A68529FB150803CC00BBE033 /* CharacterContainer.xib in Resources */,
+				A68529FE150803CC00BBE033 /* Tableboard.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +230,9 @@
 				A68529C21507F58400BBE033 /* main.m in Sources */,
 				A68529C61507F58400BBE033 /* AppDelegate.m in Sources */,
 				A68529C91507F58400BBE033 /* ViewController.m in Sources */,
+				A68529FA150803CC00BBE033 /* CharacterContainer.m in Sources */,
+				A68529FC150803CC00BBE033 /* InGameView.m in Sources */,
+				A68529FD150803CC00BBE033 /* Tableboard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

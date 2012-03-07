@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Tableboard.h
 //  TableboardRPG
 //
 //  Created by Mario Leandro Pires Toledo on 3/7/12.
@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "InGameView.h"
 
-@interface ViewController : UIViewController{
-    InGameView *inGameView;
+@interface Tableboard : UIView <UIScrollViewDelegate>{
+    IBOutlet UIScrollView *tableboardContainer;
+    UIImageView *mapImage;
 }
+
+- (void) load;
 
 @end
