@@ -41,7 +41,6 @@
 						<string key="NSFrameSize">{768, 756}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">2</int>
 							<bytes key="NSRGB">MC43NzI1NDkwOTI4IDAuNzg0MzEzNzk4IDAuNzg4MjM1MzY2MwA</bytes>
@@ -49,6 +48,7 @@
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<bool key="IBUIMultipleTouchEnabled">YES</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+						<bool key="IBUIBounces">NO</bool>
 					</object>
 				</array>
 				<string key="NSFrameSize">{768, 756}</string>
