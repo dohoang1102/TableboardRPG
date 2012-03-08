@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Map.h"
 
 @interface Tableboard : UIView <UIScrollViewDelegate>{
     IBOutlet UIScrollView *tableboardContainer;
     UIImageView *mapImage;
+    
+    Map *map;
 }
 
 - (void) load;

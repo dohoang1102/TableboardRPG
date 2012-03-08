@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6097B2C1508FCE8006FA30B /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = A6097B2B1508FCE8006FA30B /* Square.m */; };
+		A6097B2F1508FE42006FA30B /* Map.m in Sources */ = {isa = PBXBuildFile; fileRef = A6097B2E1508FE42006FA30B /* Map.m */; };
+		A6097B31150903B6006FA30B /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = A6097B30150903B6006FA30B /* square.png */; };
 		A68529B61507F58400BBE033 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A68529B51507F58400BBE033 /* UIKit.framework */; };
 		A68529B81507F58400BBE033 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A68529B71507F58400BBE033 /* Foundation.framework */; };
 		A68529BA1507F58400BBE033 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A68529B91507F58400BBE033 /* CoreGraphics.framework */; };
@@ -24,6 +27,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A6097B2A1508FCE8006FA30B /* Square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Square.h; sourceTree = "<group>"; };
+		A6097B2B1508FCE8006FA30B /* Square.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Square.m; sourceTree = "<group>"; };
+		A6097B2D1508FE42006FA30B /* Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
+		A6097B2E1508FE42006FA30B /* Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Map.m; sourceTree = "<group>"; };
+		A6097B30150903B6006FA30B /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square.png; sourceTree = "<group>"; };
 		A68529B11507F58400BBE033 /* TableboardRPG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableboardRPG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A68529B51507F58400BBE033 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A68529B71507F58400BBE033 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,6 +70,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A6097B281508FC50006FA30B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A6097B2A1508FCE8006FA30B /* Square.h */,
+				A6097B2B1508FCE8006FA30B /* Square.m */,
+				A6097B2D1508FE42006FA30B /* Map.h */,
+				A6097B2E1508FE42006FA30B /* Map.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		A68529A61507F58400BBE033 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +111,7 @@
 		A68529BB1507F58400BBE033 /* TableboardRPG */ = {
 			isa = PBXGroup;
 			children = (
+				A6097B281508FC50006FA30B /* Models */,
 				A68529EF150803CB00BBE033 /* GameController */,
 				A68529EB150801C700BBE033 /* Resources */,
 				A68529C41507F58400BBE033 /* AppDelegate.h */,
@@ -126,6 +146,7 @@
 		A68529EC150801C700BBE033 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				A6097B30150903B6006FA30B /* square.png */,
 				A68529ED150801C700BBE033 /* mapImage.jpg */,
 			);
 			path = Images;
@@ -217,6 +238,7 @@
 				A68529EE150801C700BBE033 /* mapImage.jpg in Resources */,
 				A68529FB150803CC00BBE033 /* CharacterContainer.xib in Resources */,
 				A68529FE150803CC00BBE033 /* Tableboard.xib in Resources */,
+				A6097B31150903B6006FA30B /* square.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +255,8 @@
 				A68529FA150803CC00BBE033 /* CharacterContainer.m in Sources */,
 				A68529FC150803CC00BBE033 /* InGameView.m in Sources */,
 				A68529FD150803CC00BBE033 /* Tableboard.m in Sources */,
+				A6097B2C1508FCE8006FA30B /* Square.m in Sources */,
+				A6097B2F1508FE42006FA30B /* Map.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +370,7 @@
 				A68529D11507F58400BBE033 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,14 +7,26 @@
 //
 
 #import "Tableboard.h"
+#import "Square.h"
 
 @implementation Tableboard
 
 - (void) load{
-    mapImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"mapImage.jpg"]];
+    map = [[Map alloc] init];
+    [map load];
     
-    [tableboardContainer setContentSize:CGSizeMake(mapImage.image.size.width, mapImage.image.size.height)];
-    [tableboardContainer addSubview:mapImage];    
+    mapImage = [[UIImageView alloc] initWithImage:map.image];
+    
+    [tableboardContainer setContentSize:map.size];
+    [tableboardContainer addSubview:mapImage];
+    
+    NSLog(@"%d", [map.squares count]);
+    
+    for(Square *square in map.squares){
+        UIImageView *squareView = [[UIImageView alloc] initWithImage:square.image];
+        [squareView setFrame:CGRectMake(square.position.x, square.position.y, square.size.width, square.size.height)];
+        [tableboardContainer addSubview:squareView];
+    }
 }
 
 - (void) scrollViewDidScroll:(UIScrollView *)scrollView{

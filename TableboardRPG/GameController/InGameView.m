@@ -3,7 +3,7 @@
 //  TableboardRPG
 //
 //  Created by Mario Leandro Pires Toledo on 3/7/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 Hello Sword. All rights reserved.
 //
 
 #import "InGameView.h"
@@ -24,6 +24,7 @@
     tableboardContainer = [[[NSBundle mainBundle] loadNibNamed:@"Tableboard" owner:self options:nil] objectAtIndex:0];
     characterContainer = [[[NSBundle mainBundle] loadNibNamed:@"CharacterContainer" owner:self options:nil] objectAtIndex:0];
     
+    //Mudar a forma como estas views são carregadas... Não sei se é o melhor jeito...
     [self addSubview: tableboardContainer];
     [self addSubview: characterContainer];
     
