@@ -23,7 +23,7 @@
     [super viewDidLoad];
     inGameView = [[InGameView alloc] initWithFrame:CGRectMake(0, 0, 768, 1024)];
     [self.view addSubview:inGameView];
-    
+
     [inGameView load];
 	// Do any additional setup after loading the view, typically from a nib.
 }

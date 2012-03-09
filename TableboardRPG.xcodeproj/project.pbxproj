@@ -7,9 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A60008E1150A50DF00B3A8E6 /* CharacterContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = A60008D9150A50DF00B3A8E6 /* CharacterContainer.m */; };
+		A60008E2150A50DF00B3A8E6 /* CharacterContainer.xib in Resources */ = {isa = PBXBuildFile; fileRef = A60008DA150A50DF00B3A8E6 /* CharacterContainer.xib */; };
+		A60008E3150A50DF00B3A8E6 /* InGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = A60008DC150A50DF00B3A8E6 /* InGameView.m */; };
+		A60008E4150A50DF00B3A8E6 /* Tableboard.m in Sources */ = {isa = PBXBuildFile; fileRef = A60008DF150A50DF00B3A8E6 /* Tableboard.m */; };
+		A60008E5150A50DF00B3A8E6 /* Tableboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = A60008E0150A50DF00B3A8E6 /* Tableboard.xib */; };
+		A60008E8150A510C00B3A8E6 /* CharacterController.m in Sources */ = {isa = PBXBuildFile; fileRef = A60008E7150A510C00B3A8E6 /* CharacterController.m */; };
+		A60008EA150A558900B3A8E6 /* CharacterStatusView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A60008E9150A558900B3A8E6 /* CharacterStatusView.xib */; };
+		A60008EC150A58EA00B3A8E6 /* CharacterStatusBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = A60008EB150A58EA00B3A8E6 /* CharacterStatusBackground.png */; };
+		A60008EF150A5BA000B3A8E6 /* CharacterStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = A60008EE150A5B9F00B3A8E6 /* CharacterStatusView.m */; };
 		A6097B2C1508FCE8006FA30B /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = A6097B2B1508FCE8006FA30B /* Square.m */; };
 		A6097B2F1508FE42006FA30B /* Map.m in Sources */ = {isa = PBXBuildFile; fileRef = A6097B2E1508FE42006FA30B /* Map.m */; };
 		A6097B31150903B6006FA30B /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = A6097B30150903B6006FA30B /* square.png */; };
+		A6097B3815093A1D006FA30B /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = A6097B3715093A1D006FA30B /* Character.m */; };
 		A68529B61507F58400BBE033 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A68529B51507F58400BBE033 /* UIKit.framework */; };
 		A68529B81507F58400BBE033 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A68529B71507F58400BBE033 /* Foundation.framework */; };
 		A68529BA1507F58400BBE033 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A68529B91507F58400BBE033 /* CoreGraphics.framework */; };
@@ -19,19 +29,30 @@
 		A68529C91507F58400BBE033 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A68529C81507F58400BBE033 /* ViewController.m */; };
 		A68529CC1507F58400BBE033 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A68529CA1507F58400BBE033 /* ViewController.xib */; };
 		A68529EE150801C700BBE033 /* mapImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A68529ED150801C700BBE033 /* mapImage.jpg */; };
-		A68529FA150803CC00BBE033 /* CharacterContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = A68529F2150803CC00BBE033 /* CharacterContainer.m */; };
-		A68529FB150803CC00BBE033 /* CharacterContainer.xib in Resources */ = {isa = PBXBuildFile; fileRef = A68529F3150803CC00BBE033 /* CharacterContainer.xib */; };
-		A68529FC150803CC00BBE033 /* InGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = A68529F5150803CC00BBE033 /* InGameView.m */; };
-		A68529FD150803CC00BBE033 /* Tableboard.m in Sources */ = {isa = PBXBuildFile; fileRef = A68529F8150803CC00BBE033 /* Tableboard.m */; };
-		A68529FE150803CC00BBE033 /* Tableboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = A68529F9150803CC00BBE033 /* Tableboard.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A60008D8150A50DF00B3A8E6 /* CharacterContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterContainer.h; sourceTree = "<group>"; };
+		A60008D9150A50DF00B3A8E6 /* CharacterContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterContainer.m; sourceTree = "<group>"; };
+		A60008DA150A50DF00B3A8E6 /* CharacterContainer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CharacterContainer.xib; sourceTree = "<group>"; };
+		A60008DB150A50DF00B3A8E6 /* InGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InGameView.h; sourceTree = "<group>"; };
+		A60008DC150A50DF00B3A8E6 /* InGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InGameView.m; sourceTree = "<group>"; };
+		A60008DE150A50DF00B3A8E6 /* Tableboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tableboard.h; sourceTree = "<group>"; };
+		A60008DF150A50DF00B3A8E6 /* Tableboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tableboard.m; sourceTree = "<group>"; };
+		A60008E0150A50DF00B3A8E6 /* Tableboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Tableboard.xib; sourceTree = "<group>"; };
+		A60008E6150A510C00B3A8E6 /* CharacterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterController.h; sourceTree = "<group>"; };
+		A60008E7150A510C00B3A8E6 /* CharacterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterController.m; sourceTree = "<group>"; };
+		A60008E9150A558900B3A8E6 /* CharacterStatusView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CharacterStatusView.xib; sourceTree = "<group>"; };
+		A60008EB150A58EA00B3A8E6 /* CharacterStatusBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CharacterStatusBackground.png; sourceTree = "<group>"; };
+		A60008ED150A5B9F00B3A8E6 /* CharacterStatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterStatusView.h; sourceTree = "<group>"; };
+		A60008EE150A5B9F00B3A8E6 /* CharacterStatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterStatusView.m; sourceTree = "<group>"; };
 		A6097B2A1508FCE8006FA30B /* Square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Square.h; sourceTree = "<group>"; };
 		A6097B2B1508FCE8006FA30B /* Square.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Square.m; sourceTree = "<group>"; };
 		A6097B2D1508FE42006FA30B /* Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
 		A6097B2E1508FE42006FA30B /* Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Map.m; sourceTree = "<group>"; };
 		A6097B30150903B6006FA30B /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square.png; sourceTree = "<group>"; };
+		A6097B3615093A1D006FA30B /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		A6097B3715093A1D006FA30B /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
 		A68529B11507F58400BBE033 /* TableboardRPG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableboardRPG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A68529B51507F58400BBE033 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A68529B71507F58400BBE033 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -46,14 +67,6 @@
 		A68529C81507F58400BBE033 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A68529CB1507F58400BBE033 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		A68529ED150801C700BBE033 /* mapImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mapImage.jpg; sourceTree = "<group>"; };
-		A68529F1150803CC00BBE033 /* CharacterContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterContainer.h; sourceTree = "<group>"; };
-		A68529F2150803CC00BBE033 /* CharacterContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterContainer.m; sourceTree = "<group>"; };
-		A68529F3150803CC00BBE033 /* CharacterContainer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CharacterContainer.xib; sourceTree = "<group>"; };
-		A68529F4150803CC00BBE033 /* InGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InGameView.h; sourceTree = "<group>"; };
-		A68529F5150803CC00BBE033 /* InGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InGameView.m; sourceTree = "<group>"; };
-		A68529F7150803CC00BBE033 /* Tableboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tableboard.h; sourceTree = "<group>"; };
-		A68529F8150803CC00BBE033 /* Tableboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tableboard.m; sourceTree = "<group>"; };
-		A68529F9150803CC00BBE033 /* Tableboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Tableboard.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +83,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A60008D7150A50DF00B3A8E6 /* CharacterStatus */ = {
+			isa = PBXGroup;
+			children = (
+				A60008D8150A50DF00B3A8E6 /* CharacterContainer.h */,
+				A60008D9150A50DF00B3A8E6 /* CharacterContainer.m */,
+				A60008DA150A50DF00B3A8E6 /* CharacterContainer.xib */,
+				A60008E9150A558900B3A8E6 /* CharacterStatusView.xib */,
+				A60008ED150A5B9F00B3A8E6 /* CharacterStatusView.h */,
+				A60008EE150A5B9F00B3A8E6 /* CharacterStatusView.m */,
+			);
+			path = CharacterStatus;
+			sourceTree = "<group>";
+		};
+		A60008DD150A50DF00B3A8E6 /* Tableboard */ = {
+			isa = PBXGroup;
+			children = (
+				A60008DE150A50DF00B3A8E6 /* Tableboard.h */,
+				A60008DF150A50DF00B3A8E6 /* Tableboard.m */,
+				A60008E0150A50DF00B3A8E6 /* Tableboard.xib */,
+			);
+			path = Tableboard;
+			sourceTree = "<group>";
+		};
 		A6097B281508FC50006FA30B /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -77,8 +113,30 @@
 				A6097B2B1508FCE8006FA30B /* Square.m */,
 				A6097B2D1508FE42006FA30B /* Map.h */,
 				A6097B2E1508FE42006FA30B /* Map.m */,
+				A6097B3615093A1D006FA30B /* Character.h */,
+				A6097B3715093A1D006FA30B /* Character.m */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		A6097B3915093E9F006FA30B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A60008E6150A510C00B3A8E6 /* CharacterController.h */,
+				A60008E7150A510C00B3A8E6 /* CharacterController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A6097B4415093E9F006FA30B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A60008D7150A50DF00B3A8E6 /* CharacterStatus */,
+				A60008DB150A50DF00B3A8E6 /* InGameView.h */,
+				A60008DC150A50DF00B3A8E6 /* InGameView.m */,
+				A60008DD150A50DF00B3A8E6 /* Tableboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		A68529A61507F58400BBE033 = {
@@ -146,6 +204,7 @@
 		A68529EC150801C700BBE033 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				A60008EB150A58EA00B3A8E6 /* CharacterStatusBackground.png */,
 				A6097B30150903B6006FA30B /* square.png */,
 				A68529ED150801C700BBE033 /* mapImage.jpg */,
 			);
@@ -155,32 +214,10 @@
 		A68529EF150803CB00BBE033 /* GameController */ = {
 			isa = PBXGroup;
 			children = (
-				A68529F0150803CC00BBE033 /* CharacterStatus */,
-				A68529F4150803CC00BBE033 /* InGameView.h */,
-				A68529F5150803CC00BBE033 /* InGameView.m */,
-				A68529F6150803CC00BBE033 /* Tableboard */,
+				A6097B3915093E9F006FA30B /* Controllers */,
+				A6097B4415093E9F006FA30B /* Views */,
 			);
 			path = GameController;
-			sourceTree = "<group>";
-		};
-		A68529F0150803CC00BBE033 /* CharacterStatus */ = {
-			isa = PBXGroup;
-			children = (
-				A68529F1150803CC00BBE033 /* CharacterContainer.h */,
-				A68529F2150803CC00BBE033 /* CharacterContainer.m */,
-				A68529F3150803CC00BBE033 /* CharacterContainer.xib */,
-			);
-			path = CharacterStatus;
-			sourceTree = "<group>";
-		};
-		A68529F6150803CC00BBE033 /* Tableboard */ = {
-			isa = PBXGroup;
-			children = (
-				A68529F7150803CC00BBE033 /* Tableboard.h */,
-				A68529F8150803CC00BBE033 /* Tableboard.m */,
-				A68529F9150803CC00BBE033 /* Tableboard.xib */,
-			);
-			path = Tableboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,9 +273,11 @@
 				A68529C01507F58400BBE033 /* InfoPlist.strings in Resources */,
 				A68529CC1507F58400BBE033 /* ViewController.xib in Resources */,
 				A68529EE150801C700BBE033 /* mapImage.jpg in Resources */,
-				A68529FB150803CC00BBE033 /* CharacterContainer.xib in Resources */,
-				A68529FE150803CC00BBE033 /* Tableboard.xib in Resources */,
 				A6097B31150903B6006FA30B /* square.png in Resources */,
+				A60008E2150A50DF00B3A8E6 /* CharacterContainer.xib in Resources */,
+				A60008E5150A50DF00B3A8E6 /* Tableboard.xib in Resources */,
+				A60008EA150A558900B3A8E6 /* CharacterStatusView.xib in Resources */,
+				A60008EC150A58EA00B3A8E6 /* CharacterStatusBackground.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,11 +291,14 @@
 				A68529C21507F58400BBE033 /* main.m in Sources */,
 				A68529C61507F58400BBE033 /* AppDelegate.m in Sources */,
 				A68529C91507F58400BBE033 /* ViewController.m in Sources */,
-				A68529FA150803CC00BBE033 /* CharacterContainer.m in Sources */,
-				A68529FC150803CC00BBE033 /* InGameView.m in Sources */,
-				A68529FD150803CC00BBE033 /* Tableboard.m in Sources */,
 				A6097B2C1508FCE8006FA30B /* Square.m in Sources */,
 				A6097B2F1508FE42006FA30B /* Map.m in Sources */,
+				A6097B3815093A1D006FA30B /* Character.m in Sources */,
+				A60008E1150A50DF00B3A8E6 /* CharacterContainer.m in Sources */,
+				A60008E3150A50DF00B3A8E6 /* InGameView.m in Sources */,
+				A60008E4150A50DF00B3A8E6 /* Tableboard.m in Sources */,
+				A60008E8150A510C00B3A8E6 /* CharacterController.m in Sources */,
+				A60008EF150A5BA000B3A8E6 /* CharacterStatusView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
